@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/thelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <img id="navbar-logo" class="navbar-logo" src="/assets/logo.png" alt="Home">
+        <div class="navbar-left">
+            <a href="/catalog.html" class="navbar-link">Catalogue</a>
+            <a href="/aboutus.html" class="navbar-link">About Us</a>
+        </div>
+        <div class="navbar-right">
+            <a href="/registrasi.html" class="navbar-link">Account</a>
+        </div>
+    </nav>
+
+    <!-- Begin Quiz -->
+
+    <div id="question1" class="question active">
+        <h1>Select Your Preference</h1>
+        <h2>Our fragrances are for anyone who wants to smell great</h2>
+        <img src="/quiz/masc.png" alt="Masculine" data-value="Masculine">
+        <img src="/quiz/fem.png" alt="Feminine" data-value="Feminine">
+    </div>
+
+    <div id="question2" class="question">
+        <h1>Select The Perfect Scent</h1>
+        <h2>Everyone has their preferences, we know</h2>
+        <img src="/quiz/fresh.png" alt="Fresh" data-value="Fresh">
+        <img src="/quiz/warm.png" alt="Warm" data-value="Warm">
+        <img src="/quiz/sporty.png" alt="Sporty" data-value="Sporty">
+    </div>
+
+    <div id="question3" class="question">
+        <h1>Select A Mood</h1>
+        <h2>One that fits you best</h2>
+        <img src="/quiz/calm.png" alt="Calm" data-value="Calm">
+        <img src="/quiz/playful.png" alt="Playful" data-value="Playful">
+    </div>
+
+    <div id="question4" class="question">
+        <h1>Select An Intensity</h1>
+        <h2>Because don't we all want to feel something?</h2>
+        <img src="/quiz/sensual.png" alt="Sensual" data-value="Sensual">
+        <img src="/quiz/clean.png" alt="Clean" data-value="Clean">
+        <img src="/quiz/bold.png" alt="Bold" data-value="Bold">
+        <img src="/quiz/soft.png" alt="Soft" data-value="Soft">
+    </div>
+
+</body>
+<script src="home.js"></script>
+<script src="quiz.js"></script>
+</html>

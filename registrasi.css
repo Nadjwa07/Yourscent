@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    padding: 0.5rem calc((100vw - 1200px)/2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar-logo {
+    height: 60px;
+    cursor: pointer;
+}
+
+.navbar-link {
+    text-decoration: none;
+    padding: 0rem 2rem;
+    color: black;
+    font-size: 0.85rem;
+    font-family: "Karla", sans-serif;
+}
+
+#register-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#register-logo{
+    height: 90px;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.header,h1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3{
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    color: orangered; 
+}
+
+.form-regist, label, input, small{
+    display: block;
+    text-align: left;
+    margin: 5px 0px;
+    font-family: "Karla", sans-serif;
+    font-size: small;
+    width: 300px;
+}
+
+.error{
+    font-size:x-small;
+    color: red;
+    margin-top:0%;
+    margin-bottom: 15px;
+}
+
+input{
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+#submit-button{
+    text-align: center;  
+}
+
+#submit{
+    text-align: center;
+    height: 35px;
+    width: 75%;
+    background-color: #C3B6A4;
+    color: white;
+    padding: 10px 20px;
+    font-family: "Karla", sans-serif;
+    border: none;
+}
